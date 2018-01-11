@@ -1,0 +1,48 @@
+$primary-text-color: white;
+$header-height:60px;
+$default-padding: 5px;
+
+body {
+  #main {
+    border: 1px solid lightblue;
+    padding: $default-padding;
+    box-shadow: 3px 3px 2px lightgrey;
+    margin-top: $default-padding;
+    #heading {
+      color: $primary-text-color;
+      height: $header-height;
+      padding: $default-padding;
+
+    }
+  }
+}
+.row-content{
+  margin: 0px auto;
+  padding: 50px 0px 50px 0px;
+
+  min-height: 300px;
+}
+.row-header{
+  margin: 0px auto;
+  padding: 0px auto;
+}
+
+.navbar-inverse{
+  background-color: #0275d8;
+}
+.carousel{
+  background: #0275d8;
+  margin-bottom: 20px;
+}
+.carousel-item{
+  height: 300px;
+}
+.carousel-item img{
+  position: absolute;
+  top:0;
+  left: 0;
+  min-height: 300px;
+}
+.carousel-caption{
+  padding-left: 150px;
+}
